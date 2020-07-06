@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add a user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6018bae2-a4f0-4abd-898d-90f758375466</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b0c5823-f400-4644-9040-decdaa207dae</id>
+      <masked>false</masked>
+      <name>openid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0d61920-b602-4457-b17f-b7043e8a1777</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>038cfd78-1a5b-470f-b0a3-05d90e637062</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5392e09-0b62-46d4-b934-e2c3ab76a43e</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32c7bda0-b552-433b-8488-015603c701e8</id>
+      <masked>false</masked>
+      <name>contact_no</name>
+   </variable>
+</TestCaseEntity>

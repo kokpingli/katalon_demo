@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>user</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>b6822ec5-50bf-4786-98d2-ed4b0c88515f</testSuiteGuid>
+   <testCaseLink>
+      <guid>1c716847-8e46-4192-8127-91fa019f2217</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/user/update user</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>91ac335a-a6ca-484d-b9f5-5ee1fea5c1ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/user/add a user</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>01a27d06-a5fc-492c-ad6f-2659825d8ba9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/user</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>01a27d06-a5fc-492c-ad6f-2659825d8ba9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>openid</value>
+         <variableId>1b0c5823-f400-4644-9040-decdaa207dae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01a27d06-a5fc-492c-ad6f-2659825d8ba9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>f0d61920-b602-4457-b17f-b7043e8a1777</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01a27d06-a5fc-492c-ad6f-2659825d8ba9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>first_name</value>
+         <variableId>038cfd78-1a5b-470f-b0a3-05d90e637062</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01a27d06-a5fc-492c-ad6f-2659825d8ba9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>last_name</value>
+         <variableId>c5392e09-0b62-46d4-b934-e2c3ab76a43e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01a27d06-a5fc-492c-ad6f-2659825d8ba9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>contact_no</value>
+         <variableId>32c7bda0-b552-433b-8488-015603c701e8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
